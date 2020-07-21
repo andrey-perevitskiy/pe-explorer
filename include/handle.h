@@ -1,9 +1,9 @@
 #ifndef HANDLE_H
-#define HANDLE_H
 
 #include <windows.h>
 
-HANDLE hout;
-HANDLE hin;
+extern HANDLE hout;
+extern HANDLE hin;
 
-#endif /* HANDLE_H */
+#define HANDLE_H
+#endif
